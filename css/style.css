@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    background-color: #e6ffe6;
+}
+
+.help{
+    width: 100%;
+    position: relative;
+}
+.help__btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.help__btn:hover{
+    font-weight: bold;
+}
+.help__block{
+    font-size: 1.2rem;
+    max-width: 70%;
+    padding: 20px 30px;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: justify;
+}
+.help__block--display{
+    color: white;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.app__item{
+    margin-bottom: 50px;
+}
+
+.reload-btn{
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 0;
+    width: 30%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+.reload-btn:hover{
+    text-transform: uppercase;
+}
+
+.letter-block{
+    text-align: center;
+    border: 3px double rgb(0, 0, 0);
+    width: 65px;
+    height: 60px;
+    line-height: 50px;
+    cursor: pointer;
+}
+.letter-block:hover{
+    border: 5px double rgb(0, 0, 255);
+}
+.letter-block--select{
+    background-color: gainsboro;
+}
+.letter-block--used{
+    background-color: #e6ffe6;
+    color: #e6ffe6;
+    border: 5px double transparent;
+    cursor: auto;
+}
+.letter-block--used:hover{
+    border: 5px double transparent;
+}
+.letter-block--correct{
+    border: 3px double rgb(0, 255, 0);
+    color: black;
+}
+
+.word-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+.init{
+    color: transparent;
+}
+.shuffled{
+    color: black;
+}

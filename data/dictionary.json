@@ -1,0 +1,70 @@
+[
+    {
+        "word": "hello",
+        "translation": "привет" 
+    },
+    {
+        "word": "world",
+        "translation": "мир"
+    },
+    {
+        "word": "programming",
+        "translation": "программирование"
+    },
+    {
+        "word": "show",
+        "translation": "шоу"
+    },
+    {
+        "word": "behaviour",
+        "translation": "поведение"
+    },
+    {
+        "word": "goal",
+        "translation": "цель"
+    },
+    {
+        "word": "circumstances",
+        "translation": "обстоятельства"
+    },
+    {
+        "word": "endurance",
+        "translation": "выносливость"
+    },
+    {
+        "word": "able",
+        "translation": "способный"
+    },
+    {
+        "word": "network",
+        "translation": "сеть"
+    },
+    {
+        "word": "friend",
+        "translation": "друг"
+    },
+    {
+        "word": "cutlery",
+        "translation": "столовые приборы"
+    },
+    {
+        "word": "spoon",
+        "translation": "ложка"
+    },
+    {
+        "word": "fork",
+        "translation": "вилка"
+    },
+    {
+        "word": "knife",
+        "translation": "нож"
+    },
+    {
+        "word": "frying pan",
+        "translation": "сковорода"
+    },
+    {
+        "word": "coffeepot",
+        "translation": "кофейник"
+    }
+]
