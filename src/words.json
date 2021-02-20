@@ -1,0 +1,184 @@
+[
+    {
+        "id": 1,
+        "english": "cat",
+        "russian": "кот",
+        "meaning": "a small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws. It is widely kept as a pet or for catching mice, and many breeds have been developed.",
+        "usage": ""
+    },
+    {
+        "id": 2,
+        "english": "dog",
+        "russian": "собака",
+        "meaning": "a domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, non-retractable claws, and a barking, howling, or whining voice.",
+        "usage": ""
+    },
+    {
+        "id": 3,
+        "english": "chinchilla",
+        "russian": "шиншила",
+        "meaning": "a small South American rodent with soft grey fur and a long bushy tail.",
+        "usage": ""
+    },
+    {
+        "id": 4,
+        "english": "there are none left",
+        "russian": "не осталось",
+        "meaning": "",
+        "usage": "Somebody has eaten my cookies. There are none left."
+    },
+    {
+        "id": 5,
+        "english": "dash",
+        "russian": "тире",
+        "meaning": "a horizontal stroke in writing or printing to mark a pause or break in sense or to represent omitted letters or words.",
+        "usage": ""
+    },
+    {
+        "id": 6,
+        "english": "messy",
+        "russian": "грязный",
+        "meaning": "untidy or dirty.",
+        "usage": ""
+    },
+    {
+        "id": 7,
+        "english": "parentheses",
+        "russian": "круглые скобки",
+        "meaning": "",
+        "usage": ""
+    },
+    {
+        "id": 8,
+        "english": "to grab something",
+        "russian": "схватить что-нибудь ",
+        "meaning": "grasp or seize suddenly and roughly.",
+        "usage": ""
+    },
+    {
+        "id": 9,
+        "english": "approximately",
+        "russian": "примерно",
+        "meaning": "used to show that something is almost, but not completely, accurate or exact; roughly.",
+        "usage": ""
+    },
+    {
+        "id": 10,
+        "english": "gorgeous",
+        "russian": "великолепный",
+        "meaning": "beautiful; very attractive.",
+        "usage": ""
+    },
+    {
+        "id": 11,
+        "english": "awful",
+        "russian": "ужасный",
+        "meaning": "very bad or unpleasant.",
+        "usage": ""
+    },
+    {
+        "id": 12,
+        "english": "filthy",
+        "russian": "грязный",
+        "meaning": "disgustingly dirty.",
+        "usage": ""
+    },
+    {
+        "id": 13,
+        "english": "superb",
+        "russian": "превосходно",
+        "meaning": "excellent.",
+        "usage": ""
+    },
+    {
+        "id": 14,
+        "english": "terrible",
+        "russian": "ужасный",
+        "meaning": "extremely or distressingly bad or serious.",
+        "usage": ""
+    },
+    {
+        "id": 15,
+        "english": "thrilled",
+        "russian": "взволнованный",
+        "meaning": "cause (someone) to have a sudden feeling of excitement and pleasure.",
+        "usage": ""
+    },
+    {
+        "id": 16,
+        "english": "furious",
+        "russian": "яростный",
+        "meaning": "extremely angry.",
+        "usage": ""
+    },
+    {
+        "id": 17,
+        "english": "starving",
+        "russian": "изголодавшийся",
+        "meaning": "suffering or dying from hunger.",
+        "usage": ""
+    },
+    {
+        "id": 18,
+        "english": "exhausted",
+        "russian": "измученный",
+        "meaning": "drained of one's physical or mental resources; very tired.",
+        "usage": ""
+    },
+    {
+        "id": 19,
+        "english": "hilarious",
+        "russian": "веселый",
+        "meaning": "extremely amusing.",
+        "usage": ""
+    },
+    {
+        "id": 20,
+        "english": "enormous",
+        "russian": "громадный",
+        "meaning": "very large in size, quantity, or extent.",
+        "usage": ""
+    },
+    {
+        "id": 21,
+        "english": "tiny",
+        "russian": "крошечный",
+        "meaning": "very small.",
+        "usage": ""
+    },
+    {
+        "id": 22,
+        "english": "obese",
+        "russian": "тучный",
+        "meaning": "grossly fat or overweight.",
+        "usage": ""
+    },
+    {
+        "id": 23,
+        "english": "terrified",
+        "russian": "испуганный",
+        "meaning": "cause to feel extreme fear.",
+        "usage": ""
+    },
+    {
+        "id": 24,
+        "english": "freezing",
+        "russian": "ледяной",
+        "meaning": "below 32°F (0°C).",
+        "usage": ""
+    },
+    {
+        "id": 25,
+        "english": "boiling",
+        "russian": "кипящий",
+        "meaning": "(for fresh water at sea level) at 212°F (100°C)",
+        "usage": ""
+    },
+    {
+        "id": 26,
+        "english": "on the house",
+        "russian": "Идиома.бесплатно, за счет заведения",
+        "meaning": "",
+        "usage": "The hotel room was not ready when we arrived. So they gave us drinks on the house."
+    }
+]
