@@ -20,7 +20,7 @@
 .letter-block{
     border: 2px solid green;
     padding: 5px 20px;
-    margin-right: 2px;
+    margin: 2px;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.7rem;
@@ -29,14 +29,14 @@
 .word-input__wrapper{
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 20px 10px;
 }
 
 .word-input__input{
     border: 2px solid green;
     font-weight: 300;
     font-size: 1.4rem;
-    padding: 10px 15px;
+    padding: 5px 5px 5px 10px;
 }
 
 .button{
@@ -44,7 +44,6 @@
     background-color: green;
     color: white;
     font-weight: 900;
-
     cursor: pointer;
     padding: 10px 15px;
 }
@@ -52,9 +51,9 @@
 .word-input__button{
     font-size: 1.5rem;
 }
-
 /* end word-form */
 
+/* start setup-block */
 .setup-block__button{
     padding: 5px 25px;
     margin-right: 10px;
@@ -68,8 +67,9 @@
     max-width: 100vw;
     padding: 0 10px;
 }
+/* end setup-block */
 
-/* Start modal */
+/* start modal */
 .modal-wrapper{
     min-height: 18vh;
 }
@@ -108,12 +108,13 @@
 .vocabulary__item{
     display: flex;
     justify-content: center;
+    font-size: 1.1rem;
 }
 
 .vocabulary__part{
     padding: 5px 10px;
     border-bottom: 2px solid green;
-    max-width: 20%;
+    width: 20%;
 }   
 
 .vocabulary__english{
@@ -126,22 +127,19 @@
     text-align: left;
     padding-right: 10px;
 }
-
 /* end vocabulary */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
     .letter-block{
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding: 5px 10px;
     }
     .vocabulary__part{
-        min-width: 50%;
+        width: 50%;
     }
-}
-
-@media screen and (max-width: 580px){
     .word-input__wrapper{
         flex-direction: column;
+        margin: 20px 30px;
     }
     .word-input__button{
         padding: 5px 15px;
@@ -151,12 +149,18 @@
     }
 }
 
-@media screen and (max-width: 460px){
-    .setup-block__button{
-        padding: 5px 10px;
-        font-size: 1.1rem;
+@media screen and (max-width: 400px){
+    .modal-wrapper{
+        min-height: 21vh;
     }
-    .vocabulary__item{
-        font-size: 1rem;
+    .setup-block__button{
+        padding: 6px 12px;
+    }
+    .word-input__wrapper{
+        margin: 20px 10px;
+    }
+    .word-input__input{
+        font-size: 1.2rem;
+        padding: 10px 5px;
     }
 }
