@@ -48,7 +48,7 @@ const App = () => {
         {isModalOpen && <Modal isCorrect={isCorrect}
                       word={words[selectedIndex]}/>}
       </div>
-      <div className="wor-form-wrapper">
+      <div className="word-form-wrapper">
         <div className="word-form">
           <Word word={words[selectedIndex].english}/>
           <WordInput checkAnswer={handleCheckAnswer} 

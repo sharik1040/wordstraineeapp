@@ -1,18 +1,31 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .app{
+    height: 100%;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
-/* start word-form */
+.word-form-wrapper{
+    width: 100%;
+}
+
+.word-form{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* start word-block */
 .word-block{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
     max-width: 100vw;
     margin: 20px auto;
 }
@@ -25,11 +38,14 @@
     text-transform: uppercase;
     font-size: 1.7rem;
 }
+/* end word-block */
 
+/* start word-input */
 .word-input__wrapper{
     display: flex;
     justify-content: center;
-    margin: 20px 10px;
+    width: 58%;
+    margin: 0 auto;
 }
 
 .word-input__input{
@@ -37,6 +53,7 @@
     font-weight: 300;
     font-size: 1.4rem;
     padding: 5px 5px 5px 10px;
+    width: 100%;
 }
 
 .button{
@@ -51,7 +68,7 @@
 .word-input__button{
     font-size: 1.5rem;
 }
-/* end word-form */
+/* end word-input */
 
 /* start setup-block */
 .setup-block__button{
@@ -97,7 +114,6 @@
     font-size: 1rem;
     font-weight: 400;
 }
-
 /* end modal */
 
 /* start vocabulary */
@@ -129,17 +145,20 @@
 }
 /* end vocabulary */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 740px) {
+    .word-form{
+        width: 100%;
+    }
     .letter-block{
         font-size: 1.2rem;
-        padding: 5px 10px;
+        padding: 5px 13px;
     }
     .vocabulary__part{
         width: 50%;
     }
     .word-input__wrapper{
         flex-direction: column;
-        margin: 20px 30px;
+        width: 80%;
     }
     .word-input__button{
         padding: 5px 15px;
@@ -149,18 +168,19 @@
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .modal-wrapper{
-        min-height: 21vh;
+        min-height: 20vh;
     }
     .setup-block__button{
         padding: 6px 12px;
     }
     .word-input__wrapper{
-        margin: 20px 10px;
+        margin: 20px auto;
+        width: 95%;
     }
     .word-input__input{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: 10px 5px;
     }
 }
